@@ -1,3 +1,6 @@
+# Baseline class for other datasets as far as I understand
+
+
 import os
 import torch
 import torch.utils.data as data

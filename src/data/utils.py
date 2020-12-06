@@ -1,3 +1,7 @@
+
+#Consists of some utility functions about the data. Such as 
+# download_url, download_and_extract_archive, download_file_from_google_drive
+
 import os
 import os.path
 import hashlib

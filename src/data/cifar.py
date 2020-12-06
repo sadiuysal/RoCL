@@ -1,3 +1,6 @@
+# CIFAR 10 & CIFAR 100 dataset class functions
+
+
 from __future__ import print_function
 from PIL import Image
 import os
