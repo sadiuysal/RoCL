@@ -1,3 +1,14 @@
+# Consists of all necessary utility function&clases for model structure. Easily use below functions for different structures.  
+"""
+def ResNet18(num_classes, contrastive_learning):
+    return ResNet(BasicBlock, [2,2,2,2], num_classes=num_classes, contrastive_learning=contrastive_learning)
+
+def ResNet34(num_classes,contrastive_learning):
+    return ResNet(BasicBlock, [3,4,6,3], num_classes=num_classes, contrastive_learning=contrastive_learning)
+
+def ResNet50(num_classes,contrastive_learning):
+    return ResNet(Bottleneck, [3,4,6,3], num_classes=num_classes, contrastive_learning=contrastive_learning)
+"""
 '''ResNet in PyTorch.
 
 BasicBlock and Bottleneck module is from the original ResNet paper:
