@@ -1,4 +1,6 @@
-from models.resnet import ResNet18,ResNet50
+# loads corresponding the model according to run arguments
+
+rom models.resnet import ResNet18,ResNet50
 def get_model(args):
 
     if args.dataset == 'cifar-10':

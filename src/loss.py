@@ -1,3 +1,5 @@
+# Implements loss and helper pairwise_similarity to get similarity matrix for loss calculation
+
 import diffdist.functional as distops
 import torch
 import torch.distributed as dist

@@ -1,3 +1,6 @@
+# Initializes scheduler to gradually warm-up(increasing) learning rate in optimizer
+# Check scheduler.py for source code
+
 import torch
 
 from warmup_scheduler import GradualWarmupScheduler

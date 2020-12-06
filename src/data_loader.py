@@ -1,3 +1,5 @@
+# Imports data.cifar and get necessary data according to run arguments
+
 import torch
 from data.cifar import CIFAR10, CIFAR100
 from torchvision import transforms

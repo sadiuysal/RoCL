@@ -1,5 +1,7 @@
 #!/usr/bin/env python3 -u
 
+# Implements robustness test via attacks (FGSM as far as I understand)
+
 from __future__ import print_function
 
 import csv

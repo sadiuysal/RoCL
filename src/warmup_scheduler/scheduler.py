@@ -1,3 +1,5 @@
+# accelerates SGD via increasing learning rate in training phase as far as I understand
+
 from torch.optim.lr_scheduler import _LRScheduler
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 

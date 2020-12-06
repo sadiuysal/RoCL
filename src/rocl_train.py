@@ -1,5 +1,7 @@
 #!/usr/bin/env python3 -u
 
+# Main training pipeline 
+
 from __future__ import print_function
 
 import csv
