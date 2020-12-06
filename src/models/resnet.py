@@ -1,4 +1,5 @@
-# Consists of all necessary utility function&clases for model structure. Easily use below functions for different structures.  
+# Consists of all necessary utility function&clases for model structure. Easily use below functions for different structures.
+#   
 """
 def ResNet18(num_classes, contrastive_learning):
     return ResNet(BasicBlock, [2,2,2,2], num_classes=num_classes, contrastive_learning=contrastive_learning)
